@@ -40,3 +40,15 @@ bool fibonacci_next()
 	++index_;
 	return true;
 }
+
+// Get the current value in the sequence.
+unsigned long long fibonacci_current()
+{
+	return current_;
+}
+
+// Get the current index position in the sequence.
+unsigned fibonacci_index()
+{
+	return index_;
+}
